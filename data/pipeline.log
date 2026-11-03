@@ -1,0 +1,8 @@
+2026-11-01 17:57:09,671 INFO Run started for 2026-11-01
+2026-11-01 17:57:09,672 ERROR Pipeline failed
+Traceback (most recent call last):
+  File "c:\Users\guosh\OneDrive\Desktop\mfams\fred_nightly.py", line 147, in main
+    fred_df = pull_fred(asof)
+  File "c:\Users\guosh\OneDrive\Desktop\mfams\fred_nightly.py", line 78, in pull_fred
+    raise RuntimeError("FRED_API_KEY is not set")
+RuntimeError: FRED_API_KEY is not set
